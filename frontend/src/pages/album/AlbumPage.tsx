@@ -88,7 +88,7 @@ const AlbumPage = () => {
             </div>
 
             {/* Table Section */}
-            <div className="grid grid-cols-[16px_4fr_2fr_1fr] gap-4 px-10 py-2 text-sm text-zinc-400 border-b border-white/5">
+            <div className="grid grid-cols-[16px_4fr_2fr_1fr] gap-4 px-6 sm:px-10 py-2 text-sm text-zinc-400 border-b border-white/5">
               <div>#</div>
               <div>Title</div>
               <div>Released Date</div>
@@ -98,7 +98,7 @@ const AlbumPage = () => {
             </div>
 
             {/* songs list */}
-            <div className="px-6">
+            <div className="px-2 sm:px-6">
               <div className="space-y-2 py-4">
                 {currentAlbum?.songs.map((song, index) => {
                     const isCurrentSong = currentSong?._id === song._id;
