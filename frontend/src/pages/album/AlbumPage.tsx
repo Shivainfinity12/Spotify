@@ -53,7 +53,7 @@ const AlbumPage = () => {
 
           {/* Content */}
           <div className="relative z-10">
-            <div className="flex p-6 gap-6 pb-8">
+            <div className="flex flex-wrap p-6 gap-6 pb-8">
               <img
                 src={currentAlbum?.imageUrl}
                 alt={currentAlbum?.title}
@@ -61,7 +61,7 @@ const AlbumPage = () => {
               />
               <div className="flex flex-col justify-end">
                 <p className="text-sm font-medium">Album</p>
-                <h1 className="text-7xl font-bold my-4">
+                <h1 className="text-6xl sm:text-7xl font-bold my-4">
                   {currentAlbum?.title}
                 </h1>
                 <div className="flex items-center gap-2 text-sm text-zinc-100">
