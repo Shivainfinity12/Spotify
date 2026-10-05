@@ -23,7 +23,7 @@ const SignInOAuthButtons = () => {
       className="w-full text-white border-zinc-200 h-11"
     >
       <img src="/google.png" alt="Google" className="size-5 mr-2" />
-      Continue with Google
+      <div className="hidden md:block">Continue with Google</div>
     </Button>
   );
 };
