@@ -309,10 +309,6 @@ Contributions and constructive feedback are welcome.
 4. Commit: `git commit -m "feat: describe your change"`.
 5. Push your branch and open a pull request.
 
-## 📄 License
-
-The root `package.json` declares the ISC license. Check that this matches your intended licensing and add a root `LICENSE` file if appropriate.
-
 ## 👨‍💻 Author
 
 <div align="center">
